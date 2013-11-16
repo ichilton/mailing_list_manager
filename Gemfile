@@ -44,6 +44,9 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+group :development do
+  gem 'thin', '~> 1.6.1'
+end
 
 group :development, :test do
   # Testing Gems:
